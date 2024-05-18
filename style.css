@@ -403,3 +403,41 @@ span{
 .resume .download:hover{
     background-color: orangered;
 }
+
+/* Base styles for mobile-first design */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Larger devices (tablets) */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktops and larger screens */
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+  .container {
+    width: 970px;
+  }
+}
+
+/* Extra large screens */
+@media (min-width: 1200px) {
+  body {
+    font-size: 22px;
+  }
+  .container {
+    width: 1170px;
+  }
+}
