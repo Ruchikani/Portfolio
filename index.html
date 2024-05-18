@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+
+            <a href="#" class="logo">
+                <span>Yuresha </span> Somarathna
+            </a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Portfolio</a>
+                <a href="#about">About Me</a>
+                <a href="#project">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="contact">Contact Me</a>
+        </header>
+
+        <section class="home">
+            <div class="home-content">
+                <br><br><br>
+                <br><br><br>
+                <br><br><br>
+                <br>
+                <br>
+                
+                <h3>Hi</h3>
+
+                <h1>I'm <span>Yuresha Somarathna<br></span></h1>
+
+                <p>I'm an undergraduate of Department of information Systems, Faculty of Management, Rajarata University of Sri Lanka-Mihinthale.
+                    I have acquired a solid foundation in various aspects of software development, including computer programming, system analysis 
+                    and design, database management, web application development, and software quality assurance. I'm constantly seeking opportunities
+                     to enhance her skills and gain practical experience in the field.
+                </p>
+
+                <div class="btn-box">
+                    <button class="btn-1"><a href="#contact">Hire Me</a></button>
+                    <button class="btn-2"><a href="#resume">Resume</a></button>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="img-01.jpg" alt="Yuresha">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+
+            <div class="about-img">
+                <img src="img-02.jpg" alt="">
+            </div>
+
+            <div class="about-content">
+                
+                <h2 class="heading">About <span>Me</span></h2>
+                
+                <h3>Internship</h3>
+                
+                <p>Yuresha Somarathna is a driven and ambitious individual with a passion for technology and a strong desire to excel in the field of software development and quality assurance. With a Bachelor of Science in Information Systems from the Rajarata University of Sri Lanka, she possesses a solid foundation in various aspects of information systems, including computer programming, system analysis and design, database management, web application development, and software quality assurance.
+                    What sets Yuresha apart is her commitment to continuous learning and professional growth. In addition to her academic pursuits, she has actively sought out opportunities to enhance her skills and stay up-to-date with industry trends. She has completed a Full Stack Developer course at the University of Moratuwa and an AI/ML Engineer course at SLIIT University, demonstrating her dedication to expanding her knowledge in cutting-edge technologies.
+                    Yuresha's hands-on experience includes internships at CEB - Rathnapura and Dinujaya Bookshop, where she gained valuable skills in data entry, file processing, and computer operations. Moreover, she has participated in various workshops and training programs, such as Data Science with Python and Creative Design, further broadening her skillset.</p>
+                
+                    <a href="#contact" class="btn-2">Hire Me</a>
+            </div>
+        </section><br><br>
+
+	<section class="project" id="project">
+		<div class="heading">
+			<h2>Projects</h2><br><br>
+		</div>
+
+		<div class="project">
+			<div class="box">
+				<img src="img-03.avif" alt="" height="300px" width="600px"><br>
+			<div class="project">
+				<h3>Web Site Design</h3>
+				<p>Using HTML, CSS and Java Script</p>
+				<div class="btn-2">
+						<a href="https://github.com/Ruchikani/Cake-Fairy.git">Move Forward</a>
+				</div>
+			</div>
+			</div>
+
+            <div class="box">
+				<img src="img-06.jpg" alt="" height="300px" width="600px"><br>
+			<div class="project">
+				<h3>Exam Grading System</h3>
+				<p>Using VBA</p>
+				<div class="btn-2">
+						<a href="https://github.com/Ruchikani/Exam-Grading-System.git">Move Forward</a>
+				</div>
+			</div>
+			</div>
+
+            <div class="box">
+				<img src="img-04.jpg" alt="" height="300px" width="600px"><br>
+			<div class="project">
+				<h3>Basic Calculator</h3>
+				<p>Using Python programming</p>
+				<div class="btn-2">
+						<a href="https://github.com/Ruchikani/Calculator.git">Move Forward</a>
+				</div>
+			</div>
+			</div>
+
+            <div class="box">
+				<img src="img-05.jpg" alt="" height="300px" width="600px"><br>
+			<div class="project">
+				<h3>Digital Clack</h3>
+				<p>Using Python programming</p>
+				<div class="btn-2">
+						<a href="https://github.com/Ruchikani/Digital-Clock.git">Move Forward</a>
+				</div>
+			</div>
+			</div>
+
+		</div>
+	</section>
+
+    <section>
+        <div class="resume" id="resume">
+
+            <h2 class="heading">My <span>Resume</span></h2><br>
+
+            <button class="download"><a href="https://drive.google.com/file/d/1PHCHaisX1DJc1vAK9u01UmxXS4leuWGq/view?usp=drive_link" target="_blank">Download</a></button>
+        </div>
+    </section>
+
+
+        <section class="contact-form" id="contact">
+
+            <h2 class="contact-me">Contact <span>Me</span></h2>
+            <form id="myForm">
+                <div class="input-box">
+                  <input type="text" name="FullName" placeholder="Full Name" required>
+                  <input type="email" name="Email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                  <input type="number" name="PhoneNumber" placeholder="Phone Number" required>
+                  <input type="text" name="Subject" placeholder="Subject" required>
+                </div>
+                <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn-1">
+              </form>
+            
+              <script>
+                document.getElementById('myForm').addEventListener('submit', function(event) {
+                  event.preventDefault(); // Prevent default form submission
+            
+                  var form = this;
+                  var formData = new FormData(form);
+            
+                  // Send form data to Google Apps Script
+                  fetch('https://script.google.com/macros/s/AKfycbxYLmgCBYrfPQ-wilieogsorJJ-2s9B-WS5osDn0Dgm7uKmDy_eQ8fe-9e9Fgtvku7NpQ/exec', {
+                    method: 'POST',
+                    body: formData
+                  })
+                  .then(response => {
+                    if (response.ok) {
+                      alert('Form submitted successfully!');
+                      form.reset(); // Reset the form
+                    } else {
+                      throw new Error('Form submission failed.');
+                    }
+                  })
+                  .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred. Please try again.');
+                  });
+                });
+              </script>
+                
+              
+        </section>
+
+        <footer class="footer">
+
+            <div class="social">
+                <a href="https://www.linkedin.com/in/ruchikani-somarathna-965955212" target="_blank">
+                  <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/Ruchikani" target="_blank">
+                  <i class='bx bxl-github'></i>
+                </a>
+                <a href="yuresharuchikani987@gmail.com" target="_blank">
+                  <i class='bx bxs-envelope'></i>
+                </a>
+                <a href="https://www.facebook.com/your-profile" target="_blank">
+                  <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://wa.me/0762731074" target="_blank">
+                  <i class='bx bxl-whatsapp'></i>
+                </a>
+              </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Resume</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+            <p class="copyright">2024 | Yuresha Somarathan | All Right Reserved</p>
+        </footer>
+    </body>
+</html>
